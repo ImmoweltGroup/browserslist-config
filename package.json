@@ -1,6 +1,6 @@
 {
   "name": "@immowelt/browserlist-config",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Config to share target browsers between different immoweltGroup front-ends.",
   "main": "index.js",
   "repository": "https://github.com/ImmoweltGroup/browserslist-config.git",
@@ -15,12 +15,18 @@
     "immonet"
   ],
   "scripts": {
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "publishConfig": {
     "access": "public"
   },
   "author": "Immonet Dev Team <pandora@immonet.de> (https://www.immowelt.de)",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "travis-deploy-once": "^5.0.1",
+    "semantic-release": "^15.6.3"
+  }
 }
