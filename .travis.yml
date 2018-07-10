@@ -7,7 +7,7 @@ cache:
     - node_modules
 notifications:
   email: false
-after_success:
+script:
   - yarn run release
 branches:
   except:

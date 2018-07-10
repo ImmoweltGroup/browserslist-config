@@ -14,7 +14,7 @@ Add it to your dependencies.
 npm i -D @immowelt/browserlist-config
 ```
 
-Use it in your ESLint settings.
+Use your [Browserlist](https://github.com/browserslist/browserslist#shareable-configs) settings in your `package.json`.
 
 ```json
 "browserslist": [
