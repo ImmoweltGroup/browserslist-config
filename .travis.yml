@@ -7,8 +7,12 @@ cache:
     - node_modules
 notifications:
   email: false
+before_install:
+  - yarn global add semantic-release
 script:
-  - yarn run release
+  - yarn test
+after_script:
+  - semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/

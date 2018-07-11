@@ -15,7 +15,7 @@
     "immonet"
   ],
   "scripts": {
-    "release": "semantic-release"
+    "test": "jest"
   },
   "publishConfig": {
     "access": "public"
@@ -24,6 +24,6 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "semantic-release": "^15.6.3"
+    "jest": "^23.4.0"
   }
 }
