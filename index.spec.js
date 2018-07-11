@@ -1,6 +1,6 @@
 const config = require('./index');
 
-describe('browser list config', () => {
+describe('browserslist-config', () => {
   it('should be an array', () => {
     expect(Array.isArray(config)).toBe(true);
   })

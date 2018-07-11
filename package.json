@@ -1,5 +1,5 @@
 {
-  "name": "@immowelt/browserlist-config",
+  "name": "@immowelt/browserslist-config",
   "version": "0.0.0-development",
   "description": "Config to share target browsers between different immoweltGroup front-ends.",
   "main": "index.js",
