@@ -17,9 +17,9 @@ npm i -D @immowelt/browserslist-config
 Use your [Browserslist](https://github.com/browserslist/browserslist#shareable-configs) settings in your `package.json`.
 
 ```json
-"browserslist": {
-  "extends": "@immowelt/browserslist-config"
-}
+"browserslist": [
+  "extends @immowelt/browserslist-config"
+]
 ```
 
 ## License
