@@ -1,5 +1,5 @@
 module.exports = [
-  'android >= 4',
+  // android not supported (was replaced by chrome in 2012)
   'last 2 Baidu versions',
   // BlackBerry not supported
   'last 10 Chrome versions',
@@ -12,11 +12,11 @@ module.exports = [
   'Firefox ESR',
   'last 2 FirefoxAndroid versions',
   'ios >= 8',
-  'opera >= 12',
+  'last 10 opera versions',
   // OperaMini not supported
-  'last 2 OperaMobile versions',
+  'OperaMobile >= 40',
   'last 2 QQAndroid versions',
-  'safari >= 6',
+  'safari >= 7',
   'last 2 Samsung versions',
   'last 2 UCAndroid versions'
 ];
