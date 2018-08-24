@@ -19,14 +19,34 @@
   ],
   "scripts": {
     "test": "jest",
-    "semantic-release": "semantic-release"
+    "release": "semantic-release"
   },
   "publishConfig": {
     "access": "public"
   },
+  "release": {
+    "analyzeCommits": {
+      "releaseRules": [
+        {
+          "type": "BREAKING",
+          "release": "major"
+        },
+        {
+          "type": "FEATURE",
+          "release": "minor"
+        },
+        {
+          "type": "BUGFIX",
+          "release": "patch"
+        }
+      ]
+    },
+    "branch": "master"
+  },
   "author": "Immonet Dev Team <pandora@immonet.de> (https://www.immowelt.de)",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^23.4.0"
+    "jest": "^23.4.0",
+    "semantic-release": "13.4.1"
   }
 }

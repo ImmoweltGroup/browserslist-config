@@ -7,12 +7,10 @@ cache:
     - node_modules
 notifications:
   email: false
-before_install:
-  - yarn global add semantic-release@13.4.1
 script:
   - yarn test
 after_script:
-  - semantic-release
+  - yarn release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
