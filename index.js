@@ -13,7 +13,7 @@ module.exports = [
   'last 2 FirefoxAndroid versions',
   'ios >= 8',
   'last 10 opera versions',
-  // OperaMini not supported
+  // OperaMini not supported (not popular in DE)
   'OperaMobile >= 40',
   'last 2 QQAndroid versions',
   'safari >= 7',
