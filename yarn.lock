@@ -139,6 +139,11 @@
     eslint-plugin-flowtype "^2.50.3"
     eslint-plugin-import "^2.14.0"
 
+"@immowelt/jest-preset-node@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@immowelt/jest-preset-node/-/jest-preset-node-1.1.1.tgz#5db7f2ead1cb8d67459420960b1f87deb9ae59ef"
+  integrity sha512-Qrq3EOCdziCJVHegbCkMLu7JKjjphcfJLF5vi7RFENiSZKRyG84bQhTQwvlNuP+AWsEDkRLZ2Vbk2DOTokbv7A==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
