@@ -11,7 +11,7 @@ Config to share target browsers between different [ImmoweltGroup](https://github
 Add it to your dependencies.
 
 ```bash
-npm i -D @immowelt/browserslist-config
+yarn add @immowelt/browserslist-config --dev
 ```
 
 Use your [Browserslist](https://github.com/browserslist/browserslist#shareable-configs) settings in your `package.json`.

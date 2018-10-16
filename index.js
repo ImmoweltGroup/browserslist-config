@@ -1,22 +1,30 @@
+// https://github.com/browserslist/browserslist#full-list
+
 module.exports = [
-  // android not supported (was replaced by chrome in 2012)
-  'last 2 Baidu versions',
-  // BlackBerry not supported
+  // Google
   'last 10 Chrome versions',
   'last 2 ChromeAndroid versions',
-  'last 2 Edge versions',
-  'last 2 Electron versions',
-  'ie >= 10',
-  'last 2 IE_mob versions',
-  'last 10 Firefox versions',
+  // Firefox
   'Firefox ESR',
+  'last 10 Firefox versions',
   'last 2 FirefoxAndroid versions',
-  'ios >= 8',
-  'last 10 opera versions',
-  // OperaMini not supported (not popular in DE)
+  // Microsoft
+  'last 2 Edge versions',
+  'Explorer >= 10',
+  'last 2 ExplorerMobile versions',
+  // Opera
+  'last 10 Opera versions',
   'OperaMobile >= 40',
+  // Apple
+  'Safari >= 7',
+  'iOS >= 8',
+  // Android
   'last 2 QQAndroid versions',
-  'safari >= 7',
+  'last 2 UCAndroid versions',
+  // Others
+  'last 2 Electron versions',
   'last 2 Samsung versions',
-  'last 2 UCAndroid versions'
+  'last 2 Baidu versions'
 ];
+
+// Not supported: BlackBerry, OperaMini, Android

@@ -1,7 +1,7 @@
 {
   "name": "@immowelt/browserslist-config",
-  "version": "0.0.0-development",
-  "description": "Config to share target browsers between different immoweltGroup front-ends.",
+  "version": "0.0.0",
+  "description": "Config to share target browsers between different immoweltGroup front-ends",
   "main": "index.js",
   "repository": "https://github.com/ImmoweltGroup/browserslist-config.git",
   "homepage": "https://github.com/ImmoweltGroup/browserslist-config#readme",
@@ -9,7 +9,7 @@
     "url": "https://github.com/ImmoweltGroup/browserslist-config/issues"
   },
   "keywords": [
-    "browserlist",
+    "browserslist",
     "immowelt",
     "config",
     "immonet"
@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "test": "jest",
+    "lint": "eslint **/*.js",
     "release": "semantic-release"
   },
   "publishConfig": {
@@ -46,7 +47,10 @@
   "author": "Immonet Dev Team <pandora@immonet.de> (https://www.immowelt.de)",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^23.4.0",
+    "@immowelt/eslint-config-immowelt-base": "1.1.0",
+    "browserslist": "4.2.1",
+    "eslint": "5.7.0",
+    "jest": "23.6.0",
     "semantic-release": "13.4.1"
   }
 }
