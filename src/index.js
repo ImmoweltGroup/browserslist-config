@@ -2,22 +2,22 @@
 
 module.exports = [
   // Google
-  'last 10 Chrome versions',
+  'last 8 Chrome versions',
   'last 2 ChromeAndroid versions',
   // Firefox
   'Firefox ESR',
-  'last 10 Firefox versions',
+  'last 3 Firefox versions',
   'last 2 FirefoxAndroid versions',
   // Microsoft
   'last 2 Edge versions',
-  'Explorer >= 10',
-  'last 2 ExplorerMobile versions',
+  'Explorer >= 11',
+  'ExplorerMobile >= 11',
   // Opera
-  'last 10 Opera versions',
-  'OperaMobile >= 40',
+  'last 3 Opera versions',
+  'OperaMobile >= 50',
   // Apple
-  'Safari >= 7',
-  'iOS >= 8',
+  'Safari >= 10',
+  'iOS >= 9',
   // Android
   'last 2 QQAndroid versions',
   'last 2 UCAndroid versions',
