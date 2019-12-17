@@ -22,6 +22,12 @@ Use your [Browserslist](https://github.com/browserslist/browserslist#shareable-c
 ]
 ```
 
+## Commits
+Please use one of the following prefixes in your commit message:
+* `BUGFIX:` for small fixes
+* `FEATURE:` for minor changes and
+* `BREAKING:` for breaking changes
+
 ## License
 
 See the `LICENSE` file at the root of the repository.
