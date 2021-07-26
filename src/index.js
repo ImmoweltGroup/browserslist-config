@@ -1,4 +1,4 @@
-// https://github.com/browserslist/browserslist#full-list
+// https://github.com/browserslist/browserslist#Browsers
 
 module.exports = [
   // Google
@@ -10,11 +10,8 @@ module.exports = [
   'last 2 FirefoxAndroid versions',
   // Microsoft
   'last 2 Edge versions',
-  'Explorer >= 11',
-  'ExplorerMobile >= 11',
   // Opera
   'last 3 Opera versions',
-  'OperaMobile >= 50',
   // Apple
   'Safari >= 10',
   'iOS >= 9',
@@ -27,4 +24,4 @@ module.exports = [
   'last 2 Baidu versions'
 ];
 
-// Not supported: BlackBerry, OperaMini, Android
+// Not supported: BlackBerry, OperaMini, Android, ExplorerMobile, Explorer, kaios, OperaMobile
