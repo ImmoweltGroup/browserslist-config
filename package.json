@@ -57,6 +57,6 @@
     "browserslist": "4.16.5",
     "eslint": "5.7.0",
     "jest": "23.6.0",
-    "semantic-release": "13.4.1"
+    "semantic-release": "17.2.3"
   }
 }
