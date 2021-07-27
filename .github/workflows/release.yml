@@ -21,3 +21,5 @@ jobs:
     - run: yarn lint
     - run: yarn test --coverage
     - run: yarn release
+      env:
+        NPM_TOKEN: ${{secrets.NPM_TOKEN}}
