@@ -19,7 +19,7 @@ describe('browserslist-config', () => {
     expect(clearedConfig).toHaveLength(config.length);
   });
 
-  it('should cover more then 85%', () => {
+  it('should cover more then 85% of the browser', () => {
     // https://github.com/browserslist/browserslist#coverage
     expect(Math.floor(browsersCoverage)).toBeGreaterThan(85);
   });
@@ -35,36 +35,36 @@ describe('browserslist-config', () => {
     expect(clearedConfig.indexOf('FirefoxAndroid')).toBe(4);
   });
 
-  it('should contain IE/Edge', () => {
+  it('should contain Edge', () => {
     expect(clearedConfig.indexOf('Edge')).toBe(5);
-    expect(clearedConfig.indexOf('Explorer')).toBe(6);
-    expect(clearedConfig.indexOf('ExplorerMobile')).toBe(7);
   });
 
   it('should contain Opera', () => {
-    expect(clearedConfig.indexOf('Opera')).toBe(8);
-    expect(clearedConfig.indexOf('OperaMobile')).toBe(9);
+    expect(clearedConfig.indexOf('Opera')).toBe(6);
   });
 
   it('should contain Safari/iOS', () => {
-    expect(clearedConfig.indexOf('Safari')).toBe(10);
-    expect(clearedConfig.indexOf('iOS')).toBe(11);
+    expect(clearedConfig.indexOf('Safari')).toBe(7);
+    expect(clearedConfig.indexOf('iOS')).toBe(8);
   });
 
   it('should contain (some) Androids', () => {
-    expect(clearedConfig.indexOf('QQAndroid')).toBe(12);
-    expect(clearedConfig.indexOf('UCAndroid')).toBe(13);
+    expect(clearedConfig.indexOf('QQAndroid')).toBe(9);
+    expect(clearedConfig.indexOf('UCAndroid')).toBe(10);
   });
 
   it('should contain special browsers', () => {
-    expect(clearedConfig.indexOf('Electron')).toBe(14);
-    expect(clearedConfig.indexOf('Samsung')).toBe(15);
-    expect(clearedConfig.indexOf('Baidu')).toBe(16);
+    expect(clearedConfig.indexOf('Electron')).toBe(11);
+    expect(clearedConfig.indexOf('Samsung')).toBe(12);
+    expect(clearedConfig.indexOf('Baidu')).toBe(13);
   });
 
   it('should NOT contain unnecessary browsers', () => {
     expect(clearedConfig.indexOf('BlackBerry')).toBe(-1);
     expect(clearedConfig.indexOf('OperaMini')).toBe(-1);
-    expect(clearedConfig.indexOf('Android')).toBe(-1);
+    expect(clearedConfig.indexOf('ExplorerMobile')).toBe(-1);
+    expect(clearedConfig.indexOf('Explorer')).toBe(-1);
+    expect(clearedConfig.indexOf('kaios')).toBe(-1);
+    expect(clearedConfig.indexOf('OperaMobile')).toBe(-1);
   });
 });

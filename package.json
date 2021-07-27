@@ -2,13 +2,28 @@
   "name": "@immowelt/browserslist-config",
   "version": "0.0.0",
   "description": "Config to share target browsers between different immoweltGroup front-ends",
+  "author": "Immonet Dev Team <pandora@immonet.de> (https://www.immowelt.de)",
+  "license": "MIT",
+  "private": false,
   "main": "src/index.js",
   "repository": "https://github.com/ImmoweltGroup/browserslist-config.git",
   "homepage": "https://github.com/ImmoweltGroup/browserslist-config#readme",
   "bugs": {
     "url": "https://github.com/ImmoweltGroup/browserslist-config/issues"
   },
-  "private": false,
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src",
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@immowelt/eslint-config-immowelt-base": "1.1.0",
+    "@immowelt/jest-preset-node": "1.1.1",
+    "browserslist": "4.16.5",
+    "eslint": "5.7.0",
+    "jest": "23.6.0",
+    "semantic-release": "17.2.3"
+  },
   "engines": {
     "node": ">=8.11.4",
     "yarn": ">=1.6.0"
@@ -22,11 +37,6 @@
   "files": [
     "src/index.js"
   ],
-  "scripts": {
-    "test": "jest",
-    "lint": "eslint src",
-    "release": "semantic-release"
-  },
   "publishConfig": {
     "access": "public"
   },
@@ -48,15 +58,5 @@
       ]
     },
     "branch": "master"
-  },
-  "author": "Immonet Dev Team <pandora@immonet.de> (https://www.immowelt.de)",
-  "license": "MIT",
-  "devDependencies": {
-    "@immowelt/eslint-config-immowelt-base": "1.1.0",
-    "@immowelt/jest-preset-node": "1.1.1",
-    "browserslist": "4.16.5",
-    "eslint": "5.7.0",
-    "jest": "23.6.0",
-    "semantic-release": "17.2.3"
   }
 }
