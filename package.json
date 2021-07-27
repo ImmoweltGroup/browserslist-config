@@ -55,6 +55,10 @@
           "release": "minor"
         },
         {
+          "type": "PATCH",
+          "release": "patch"
+        },
+        {
           "type": "BUGFIX",
           "release": "patch"
         }
