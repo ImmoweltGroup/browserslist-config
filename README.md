@@ -26,7 +26,7 @@ Use your [Browserslist](https://github.com/browserslist/browserslist#shareable-c
 
 Please use one of the following prefixes in your commit message:
 
-- `BUGFIX:` for small fixes
+- `BUGFIX:` or `PATCH:` for small fixes
 - `FEATURE:` for minor changes and
 - `BREAKING:` for breaking changes
 
