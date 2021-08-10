@@ -625,10 +625,10 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@mdn/browser-compat-data@^3.3.11":
-  version "3.3.12"
-  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-3.3.12.tgz#b5796d7c201da38c3e8e1494aa62b04bf9ee57ec"
-  integrity sha512-XC9Agp7J5JuD/yfSk212MS2iWZnmcdK+JGPh8bULBrTiduFNttcuBGrHfhyy8YNY3BSIO46J8GkcWPln7fe6wA==
+"@mdn/browser-compat-data@^3.3.14":
+  version "3.3.14"
+  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-3.3.14.tgz#b72a37c654e598f9ae6f8335faaee182bebc6b28"
+  integrity sha512-n2RC9d6XatVbWFdHLimzzUJxJ1KY8LdjqrW6YvGPiRmsHkhOUx74/Ct10x5Yo7bC/Jvqx7cDEW8IMPv/+vwEzA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -1370,12 +1370,12 @@ assert-plus@1.0.0, assert-plus@^1.0.0:
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
   integrity sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
 
-ast-metadata-inferer@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/ast-metadata-inferer/-/ast-metadata-inferer-0.5.1.tgz#8268d68b20c03ff3dbce97c15dfa00dcac70fa5c"
-  integrity sha512-fj+QuB47ODy18p5gJ4BFnpenk992o7gx7oPid6oUK9+Uy/F3/5cvZ13harpQPN5Y8MlcjYf0y1LwgOV1J31k+A==
+ast-metadata-inferer@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/ast-metadata-inferer/-/ast-metadata-inferer-0.6.0.tgz#512ca0ea00de3ced5b610e9b029fe6d08f29eda0"
+  integrity sha512-vI/F+NP0g40QMfufPiWfuKCvFAZPC0o8VxqkizkLxl63SlBHOyUqRPsvcSm+rFyDDi9Uj+9CxWqGb72rdrgghw==
   dependencies:
-    "@mdn/browser-compat-data" "^3.3.11"
+    "@mdn/browser-compat-data" "^3.3.14"
 
 astral-regex@^2.0.0:
   version "2.0.0"
@@ -1529,7 +1529,7 @@ browser-process-hrtime@^1.0.0:
   resolved "https://registry.yarnpkg.com/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
   integrity sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
 
-browserslist@4.16.7, browserslist@^4.1.2, browserslist@^4.16.6:
+browserslist@4.16.7, browserslist@^4.1.2, browserslist@^4.16.6, browserslist@^4.16.7:
   version "4.16.7"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.7.tgz#108b0d1ef33c4af1b587c54f390e7041178e4335"
   integrity sha512-7I4qVwqZltJ7j37wObBe3SoTz+nS8APaNcrBOlgoirb6/HbEU2XxW/LpUDTCngM6iauwFqmRTuOMfyKnFGY5JA==
@@ -1653,7 +1653,7 @@ caniuse-db@^1.0.30000889:
   resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000892.tgz#3a03ecec4283caa5dac49facf024d13113c4499f"
   integrity sha512-as/DXjiFJg051+GSJLmkY0hckkVsmTB4nuDUPLwK1sMHk94XsYuocNJuU0wdOpobwI/3sqNeW5ETebvdPGvwBQ==
 
-caniuse-lite@^1.0.30001245, caniuse-lite@^1.0.30001248:
+caniuse-lite@^1.0.30001248, caniuse-lite@^1.0.30001249:
   version "1.0.30001249"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001249.tgz#90a330057f8ff75bfe97a94d047d5e14fabb2ee8"
   integrity sha512-vcX4U8lwVXPdqzPWi6cAJ3FnQaqXbBqy/GZseKNQzRj37J7qZdGcBtxq/QLFNLLlfsoXLUdHw8Iwenri86Tagw==
@@ -1960,10 +1960,10 @@ convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   dependencies:
     safe-buffer "~5.1.1"
 
-core-js@^3.15.2:
-  version "3.15.2"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.15.2.tgz#740660d2ff55ef34ce664d7e2455119c5bdd3d61"
-  integrity sha512-tKs41J7NJVuaya8DxIOCnl8QuPHx5/ZVbFo1oKgVl1qHFBBrDctzQGtuLjPpRdNTWmKPH6oEvgN/MUID+l485Q==
+core-js@^3.16.1:
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.16.1.tgz#f4485ce5c9f3c6a7cb18fa80488e08d362097249"
+  integrity sha512-AAkP8i35EbefU+JddyWi12AWE9f2N/qr/pwnDtWz4nyUIBGMJPX99ANFFRSw6FefM374lDujdtLDyhN2A/btHw==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -2459,16 +2459,16 @@ eslint-plugin-compat@^2.6.2:
     caniuse-db "^1.0.30000889"
     mdn-browser-compat-data "^0.0.53"
 
-eslint-plugin-compat@^3.11.1:
-  version "3.11.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-3.11.1.tgz#f95d7da1cdbb7c05c81d75fa2e1ecee266ccf4aa"
-  integrity sha512-iJyltnaVN9g/MYL3WGb6GFyJs+4mMkumq2E5srxsQIfPqQh14HEE0dtQC/HKDWze+hkwQtSo5DvC3IW5Gmxdtw==
+eslint-plugin-compat@^3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-3.12.0.tgz#9d0bbe3a7e889ca726f9c0cab1420025d108c7f5"
+  integrity sha512-PVTwl/3aaY2miq6vVfout1uqAYFYFGlMB9oMW7uGBG+a4XKbgxRwv7llC6IrUAWBzwL2XRGng89fW3YEk5rJhA==
   dependencies:
-    "@mdn/browser-compat-data" "^3.3.11"
-    ast-metadata-inferer "^0.5.1"
-    browserslist "^4.16.6"
-    caniuse-lite "^1.0.30001245"
-    core-js "^3.15.2"
+    "@mdn/browser-compat-data" "^3.3.14"
+    ast-metadata-inferer "^0.6.0"
+    browserslist "^4.16.7"
+    caniuse-lite "^1.0.30001249"
+    core-js "^3.16.1"
     find-up "^5.0.0"
     lodash.memoize "4.1.2"
     semver "7.3.5"
