@@ -6,6 +6,7 @@ updates:
       interval: "daily"
     commit-message:
       prefix: "PATCH: "
+      prefix_development: "dev update: "
     labels:
       - "dependencies"
     versioning-strategy: increase
