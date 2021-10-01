@@ -17,7 +17,7 @@
     "release": "semantic-release"
   },
   "devDependencies": {
-    "@immowelt/eslint-config-immowelt-base": "2.0.0",
+    "@immowelt/eslint-config-immowelt-base": "2.0.2",
     "@immowelt/jest-preset-node": "2.1.0",
     "browserslist": "4.17.1",
     "eslint": "7.32.0",
