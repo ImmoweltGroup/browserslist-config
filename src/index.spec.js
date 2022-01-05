@@ -56,7 +56,6 @@ describe('browserslist-config', () => {
   it('should contain special browsers', () => {
     expect(clearedConfig.indexOf('Electron')).toBe(11);
     expect(clearedConfig.indexOf('Samsung')).toBe(12);
-    expect(clearedConfig.indexOf('Baidu')).toBe(13);
   });
 
   it('should NOT contain unnecessary browsers', () => {
@@ -66,5 +65,6 @@ describe('browserslist-config', () => {
     expect(clearedConfig.indexOf('Explorer')).toBe(-1);
     expect(clearedConfig.indexOf('kaios')).toBe(-1);
     expect(clearedConfig.indexOf('OperaMobile')).toBe(-1);
+    expect(clearedConfig.indexOf('Baidu')).toBe(-1);
   });
 });
