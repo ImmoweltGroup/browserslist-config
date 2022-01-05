@@ -20,8 +20,7 @@ module.exports = [
   'last 2 UCAndroid versions',
   // Others
   'last 2 Electron versions',
-  'last 2 Samsung versions',
-  'last 2 Baidu versions'
+  'last 2 Samsung versions'
 ];
 
-// Not supported: BlackBerry, OperaMini, Android, ExplorerMobile, Explorer, kaios, OperaMobile
+// Not supported: BlackBerry, OperaMini, Android, ExplorerMobile, Explorer, kaios, OperaMobile, Baidu
