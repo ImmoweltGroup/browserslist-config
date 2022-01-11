@@ -44,13 +44,9 @@ describe('browserslist-config', () => {
     expect(clearedConfig.indexOf('iOS')).toBe(7);
   });
 
-  it('should contain Android', () => {
-    expect(clearedConfig.indexOf('Android')).toBe(8);
-  });
-
   it('should contain special browsers', () => {
-    expect(clearedConfig.indexOf('Electron')).toBe(9);
-    expect(clearedConfig.indexOf('Samsung')).toBe(10);
+    expect(clearedConfig.indexOf('Electron')).toBe(8);
+    expect(clearedConfig.indexOf('Samsung')).toBe(9);
   });
 
   it('should NOT contain unnecessary browsers', () => {
@@ -64,5 +60,6 @@ describe('browserslist-config', () => {
     expect(clearedConfig.indexOf('QQAndroid')).toBe(-1);
     expect(clearedConfig.indexOf('UCAndroid')).toBe(-1);
     expect(clearedConfig.indexOf('Opera')).toBe(-1);
+    expect(clearedConfig.indexOf('Android')).toBe(-1);
   });
 });

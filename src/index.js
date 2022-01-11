@@ -15,7 +15,7 @@ module.exports = [
   'last 3 iOS major versions',
   // Others
   'last 2 Electron major versions',
-  'last 1 Samsung major versions',
+  'last 1 Samsung major versions'
 ];
 
-// Not supported: Baidu, BlackBerry, Opera, OperaMini, OperaMobile, ExplorerMobile, Explorer, kaios, UCAndroid, QQAndroid, Andorid
+// Not supported: Baidu, BlackBerry, Opera, OperaMini, OperaMobile, ExplorerMobile, Explorer, kaios, UCAndroid, QQAndroid, Android
