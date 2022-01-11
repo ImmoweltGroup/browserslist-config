@@ -11,7 +11,7 @@ const firstMatch = (match, p1) => p1;
 // Reduce the entries to the bare browser names
 const clearedConfig = config
   .map(c => c.replace(/^(\w+) [<=>]+ \d+$/gi, firstMatch))
-  .map(c => c.replace(/^last \d+ (\w+) versions$/gi, firstMatch));
+  .map(c => c.replace(/^last \d+ (\w+) major versions$/gi, firstMatch));
 
 describe('browserslist-config', () => {
   it('should be an array', () => {
@@ -21,7 +21,7 @@ describe('browserslist-config', () => {
 
   it('should cover more then 85% of the browser', () => {
     // https://github.com/browserslist/browserslist#coverage
-    expect(Math.floor(browsersCoverage)).toBeGreaterThan(85);
+    expect(Math.round(browsersCoverage)).toBeGreaterThan(85);
   });
 
   it('should contain Chrome', () => {
@@ -39,23 +39,18 @@ describe('browserslist-config', () => {
     expect(clearedConfig.indexOf('Edge')).toBe(5);
   });
 
-  it('should contain Opera', () => {
-    expect(clearedConfig.indexOf('Opera')).toBe(6);
-  });
-
   it('should contain Safari/iOS', () => {
-    expect(clearedConfig.indexOf('Safari')).toBe(7);
-    expect(clearedConfig.indexOf('iOS')).toBe(8);
+    expect(clearedConfig.indexOf('Safari')).toBe(6);
+    expect(clearedConfig.indexOf('iOS')).toBe(7);
   });
 
-  it('should contain (some) Androids', () => {
-    expect(clearedConfig.indexOf('QQAndroid')).toBe(9);
-    expect(clearedConfig.indexOf('UCAndroid')).toBe(10);
+  it('should contain Android', () => {
+    expect(clearedConfig.indexOf('Android')).toBe(8);
   });
 
   it('should contain special browsers', () => {
-    expect(clearedConfig.indexOf('Electron')).toBe(11);
-    expect(clearedConfig.indexOf('Samsung')).toBe(12);
+    expect(clearedConfig.indexOf('Electron')).toBe(9);
+    expect(clearedConfig.indexOf('Samsung')).toBe(10);
   });
 
   it('should NOT contain unnecessary browsers', () => {
@@ -66,5 +61,8 @@ describe('browserslist-config', () => {
     expect(clearedConfig.indexOf('kaios')).toBe(-1);
     expect(clearedConfig.indexOf('OperaMobile')).toBe(-1);
     expect(clearedConfig.indexOf('Baidu')).toBe(-1);
+    expect(clearedConfig.indexOf('QQAndroid')).toBe(-1);
+    expect(clearedConfig.indexOf('UCAndroid')).toBe(-1);
+    expect(clearedConfig.indexOf('Opera')).toBe(-1);
   });
 });

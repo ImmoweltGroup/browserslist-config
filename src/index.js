@@ -2,25 +2,20 @@
 
 module.exports = [
   // Google
-  'last 8 Chrome versions',
-  'last 2 ChromeAndroid versions',
+  'last 3 Chrome major versions',
+  'last 3 ChromeAndroid major versions',
   // Firefox
   'Firefox ESR',
-  'last 3 Firefox versions',
-  'last 2 FirefoxAndroid versions',
+  'last 2 Firefox major versions',
+  'last 2 FirefoxAndroid major versions',
   // Microsoft
-  'last 2 Edge versions',
-  // Opera
-  'last 3 Opera versions',
+  'last 2 Edge major versions',
   // Apple
-  'Safari >= 10',
-  'iOS >= 9',
-  // Android
-  'last 2 QQAndroid versions',
-  'last 2 UCAndroid versions',
+  'last 3 Safari major versions',
+  'last 3 iOS major versions',
   // Others
-  'last 2 Electron versions',
-  'last 2 Samsung versions'
+  'last 2 Electron major versions',
+  'last 1 Samsung major versions',
 ];
 
-// Not supported: BlackBerry, OperaMini, Android, ExplorerMobile, Explorer, kaios, OperaMobile, Baidu
+// Not supported: Baidu, BlackBerry, Opera, OperaMini, OperaMobile, ExplorerMobile, Explorer, kaios, UCAndroid, QQAndroid, Andorid
