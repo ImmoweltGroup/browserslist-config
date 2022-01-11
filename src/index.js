@@ -18,4 +18,4 @@ module.exports = [
   'last 1 Samsung major versions',
 ];
 
-// Not supported: BlackBerry, OperaMini, Android, ExplorerMobile, Explorer, kaios, OperaMobile, Baidu, Android Native
+// Not supported: Baidu, BlackBerry, Opera, OperaMini, OperaMobile, ExplorerMobile, Explorer, kaios, UCAndroid, QQAndroid, Andorid
