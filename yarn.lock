@@ -528,17 +528,17 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@immowelt/browserslist-config@^3.0.0":
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/@immowelt/browserslist-config/-/browserslist-config-3.0.8.tgz#936ed2abdf05ac83a6cc6af595ba99a51374a6fb"
-  integrity sha512-fBOX1I9mBrDjM3Hh3d2md7Eruh89sGzw84mGqJCPuJ7MDLMLKdajOGd0nkeGRRYeOeO2PPysWx/IgpCWbgwxWw==
+"@immowelt/browserslist-config@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@immowelt/browserslist-config/-/browserslist-config-4.0.0.tgz#f567600f0058d5daf6dab01dbc0348f0c147556f"
+  integrity sha512-IjeAxv1jCsqooDixNAvXJb4AN2yQCDkVZFy17+xhC6gubwUvAYW553BAWPtrHgzBrrImWlHg1AxlKf0u3ZipJg==
 
-"@immowelt/eslint-config-immowelt-base@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@immowelt/eslint-config-immowelt-base/-/eslint-config-immowelt-base-3.1.1.tgz#cc899989c967d3d43af89404df2cb607df25acda"
-  integrity sha512-MPizDxMsaS7Gu6Z+5WVoC1TWzlJcGf5u5B8I9VZ3/g5Mk3tbOT3ggaltr9M7l4tiU/f2g49rdpNn+NBLZKn0Zg==
+"@immowelt/eslint-config-immowelt-base@3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@immowelt/eslint-config-immowelt-base/-/eslint-config-immowelt-base-3.1.3.tgz#50beb60c88398c80c098f188c64b05eaaf9bcdf7"
+  integrity sha512-5KjfV0NZcR9+WFkqqt6SLLX3GjAMhUL4zCBJ5mXIiTgg1q7vjaoXcR7ixj1f7fhNT440yNJF1yQ9Q2lx5QlfCw==
   dependencies:
-    "@immowelt/browserslist-config" "^3.0.0"
+    "@immowelt/browserslist-config" "^4.0.0"
     eslint "^8.3.0"
     eslint-config-airbnb-base "^15.0.0"
     eslint-plugin-compat "^4.0.0"
