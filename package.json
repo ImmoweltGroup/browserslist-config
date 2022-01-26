@@ -20,7 +20,7 @@
     "@immowelt/eslint-config-immowelt-base": "3.1.1",
     "@immowelt/jest-preset-node": "2.1.0",
     "browserslist": "4.19.1",
-    "eslint": "8.6.0",
+    "eslint": "8.7.0",
     "eslint-plugin-compat": "^4.0.1",
     "eslint-plugin-import": "^2.25.4",
     "jest": "27.4.7",
