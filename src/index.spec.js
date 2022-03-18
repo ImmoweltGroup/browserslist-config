@@ -19,9 +19,9 @@ describe('browserslist-config', () => {
     expect(clearedConfig).toHaveLength(config.length);
   });
 
-  it('should cover more then 84% of the browser', () => {
+  it('should cover minimum 84% of the browsers', () => {
     // https://github.com/browserslist/browserslist#coverage
-    expect(Math.round(browsersCoverage)).toBeGreaterThan(84);
+    expect(browsersCoverage).toBeGreaterThanOrEqual(84);
   });
 
   it('should contain Chrome', () => {
