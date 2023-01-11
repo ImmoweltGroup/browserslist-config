@@ -467,10 +467,10 @@
   resolved "https://registry.yarnpkg.com/@immowelt/browserslist-config/-/browserslist-config-4.0.0.tgz#f567600f0058d5daf6dab01dbc0348f0c147556f"
   integrity sha512-IjeAxv1jCsqooDixNAvXJb4AN2yQCDkVZFy17+xhC6gubwUvAYW553BAWPtrHgzBrrImWlHg1AxlKf0u3ZipJg==
 
-"@immowelt/eslint-config-immowelt-base@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@immowelt/eslint-config-immowelt-base/-/eslint-config-immowelt-base-3.2.1.tgz#2ee93b7963a767d697a2552402b6a65d5288438d"
-  integrity sha512-cInJyDtT93Wn/5kL2A0do8wy1Mc5FMXe4QBlTxw5V+0DwaUznJ5s00oK4a5FdiwW8QAMa5pjWUhGDj7gbymESw==
+"@immowelt/eslint-config-immowelt-base@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@immowelt/eslint-config-immowelt-base/-/eslint-config-immowelt-base-3.2.2.tgz#c572cbc3a30ffc9b063e50af2d53a17caf2971d7"
+  integrity sha512-AdIWRIeLxjoxnbDWEoozCvLSNbRnf1mNXuqEsSwUSSvrPEvxVGi/OLsk3nr9Cl+0XUFTWwjnPq3tyMzACcwmjQ==
   dependencies:
     "@immowelt/browserslist-config" "^4.0.0"
     eslint "^8.3.0"
