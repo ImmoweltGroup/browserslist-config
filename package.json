@@ -27,8 +27,8 @@
     "semantic-release": "19.0.5"
   },
   "engines": {
-    "node": ">=8.11.4",
-    "yarn": ">=1.6.0"
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0"
   },
   "keywords": [
     "browserslist",
